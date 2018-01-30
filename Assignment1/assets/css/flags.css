@@ -383,12 +383,12 @@ body {
   background: green;
 }
 .maldives .rect {
-  position: absolute;
+  position: relative;
   display: block;
   width: 120px;
   height: 75px;
-  top: 51%;
-  bottom: 50%;
+  top: 140px;
+  bottom: 100px;
   margin: -100px 0 0 40px;
 	background: red;
 }
