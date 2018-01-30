@@ -259,12 +259,14 @@ body {
   background-color: white;
 }
 
-.japan .dot {
-    height: 50px;
-    width: 50px;
+.japan .circle {
     position: relative;
-    display: block;
-    background-color: red;
-    border-radius: 50%;
-    display: inline-block;
+    top: 40px;
+    left: 60px;
+    width: 75px;
+  	height: 75px;
+  	background: red;
+  	-moz-border-radius: 50px;
+  	-webkit-border-radius: 50px;
+  	border-radius: 50px;
 }
