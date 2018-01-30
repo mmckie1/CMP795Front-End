@@ -401,3 +401,18 @@ body {
   left: 46%;
   box-shadow: -15px 0px 0 0 white;
 }
+.niger {
+  background: -webkit-linear-gradient(top, orange 33%, white 33%, white 66%, green 66%);
+  background: linear-gradient(to bottom, orange 33%, white 33%, white 66%, green 66%);
+}
+.niger .circle {
+  position: relative;
+  top: 52px;
+  left: 75px;
+  width: 45px;
+  height: 45px;
+  background: orange;
+  -moz-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  border-radius: 50px;
+}
