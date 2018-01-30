@@ -1,0 +1,270 @@
+body {
+  background: beige;
+}
+
+.FLAG {
+  margin: 1em;
+  height: 150px;
+  width: 200px;
+  float: left;
+}
+
+.belgium {
+  background: -webkit-linear-gradient(left, #333 33%, #f8de1f 33%, #f8de1f 66%, #e51400 66%);
+  background: linear-gradient(to right, #333 33%, #f8de1f 33%, #f8de1f 66%, #e51400 66%);
+}
+
+.spain {
+  background: -webkit-linear-gradient(top, #e51400 25%, #f8de1f 25%, #f8de1f 75%, #e51400 75%);
+  background: linear-gradient(to bottom, #e51400 25%, #f8de1f 25%, #f8de1f 75%, #e51400 75%);
+}
+
+.czech {
+  background: -webkit-linear-gradient(top, white 50%, #e51400 50%);
+  background: linear-gradient(to bottom, white 50%, #e51400 50%);
+}
+.czech .triangle {
+  width: 0;
+  height: 0;
+  border-left: 75px solid #204e81;
+  border-top: 75px solid transparent;
+  border-bottom: 75px solid transparent;
+}
+
+.jamaica {
+  background: #f8de1f;
+}
+.jamaica:before, .jamaica:after, .jamaica .triangleL, .jamaica .triangleR {
+  position: relative;
+  width: 0;
+  height: 0;
+}
+.jamaica:before, .jamaica:after {
+  content: '';
+  left: 11px;
+  border-left: 88px solid transparent;
+  border-right: 88px solid transparent;
+}
+.jamaica:before {
+  top: 65px;
+  border-top: 65px solid #339933;
+}
+.jamaica:after {
+  bottom: 201px;
+  border-bottom: 67px solid #339933;
+}
+.jamaica .triangleL, .jamaica .triangleR {
+  border-top: 62px solid transparent;
+  border-bottom: 62px solid transparent;
+}
+.jamaica .triangleL {
+  border-left: 85px solid #333;
+  top: -5px;
+}
+.jamaica .triangleR {
+  border-right: 85px solid #333;
+  right: -114px;
+  top: -128px;
+}
+.scotland {
+  background: -webkit-linear-gradient(125deg, transparent 45%, transparent 45%, white 45%, white 45%, white 55%, transparent 55%, transparent 55%), -webkit-linear-gradient(53deg, #0065bd 45%, #0065bd 45%, white 45%, white 45%, white 55%, #0065bd 55%, #0065bd 55%);
+  background: linear-gradient(144deg, transparent 45%, transparent 45%, white 45%, white 45%, white 55%, transparent 55%, transparent 55%), linear-gradient(37deg, #0065bd 45%, #0065bd 45%, #ffffff 45%, #ffffff 45%, #ffffff 55%, #0065bd 55%, #0065bd 55%);
+}
+.qatar {
+  background: -webkit-linear-gradient(left, white 50%, #a72215 50%);
+  background: linear-gradient(to right, white 30%, #a72215 30%);
+  position: relative;
+  overflow: hidden;
+}
+.qatar .triangle1, .qatar .triangle2, .qatar .triangle3, .qatar .triangle4, .qatar .triangle5, .qatar .triangle6, .qatar .triangle7, .qatar .triangle8, .qatar .triangle9 {
+  width: 0;
+  height: 0;
+  position: relative;
+  border-top: 25px solid transparent;
+  border-left: 110px solid white;
+  border-bottom: 25px solid transparent;
+}
+.qatar .triangle1 {
+  top: -1px;
+  border-top: none;
+}
+.qatar .triangle2 {
+  top: -28px;
+}
+.qatar .triangle3 {
+  top: -56px;
+}
+.qatar .triangle4 {
+  top: -83px;
+}
+.qatar .triangle5 {
+  top: -110px;
+}
+.qatar .triangle6 {
+  top: -137px;
+}
+.qatar .triangle7 {
+  top: -162px;
+}
+.qatar .triangle8 {
+  border-bottom: none;
+  top: -186px;
+}
+.denmark {
+  background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 25%, white 25%, white 33%, rgba(255, 255, 255, 0) 33%), -webkit-linear-gradient(bottom, #e51400 45%, white 45%, white 55%, #e51400 55%);
+  background: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, white 25%, white 33%, rgba(255, 255, 255, 0) 33%), linear-gradient(to bottom, #e51400 45%, white 45%, white 55%, #e51400 55%);
+}
+.denmark {
+	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 0) 25%, white 25%, white 33%, rgba(255, 255, 255, 0) 33%),
+	-webkit-linear-gradient(bottom, $red 45%, white 45%, white 55%, $red 55%);
+	background: linear-gradient(to right, rgba(255, 255, 255, 0) 25%, white 25%, white 33%, rgba(255, 255, 255, 0) 33%),
+	linear-gradient(to bottom, $red 45%, white 45%, white 55%, $red 55%);
+}
+.mali {
+    background: -webkit-linear-gradient(left, #339933 33%, #f8de1f 33%, #f8de1f 66%, #e51400 66%);
+    background: linear-gradient(to right, #339933 33%, #f8de1f 33%, #f8de1f 66%, #e51400 66%);
+}
+.burma {
+  background: -webkit-linear-gradient(top, #f8de1f 33%, #339933 33%, #339933 66%, #e51400 66%);
+  background: linear-gradient(to bottom, #f8de1f 33%, #339933 33%, #339933 66%, #e51400 66%);
+}
+.burma .star {
+  position: relative;
+  top: -10px;
+  left: 0px;
+  -webkit-transform: scale(0.40);
+  transform: scale(0.40);
+}
+.burma .star .inner-star {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: red;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #ffffff;
+  border-left: 100px solid transparent;
+  -webkit-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.burma .star .inner-star:before {
+  border-bottom: 80px solid #ffffff;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  -webkit-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+.burma .star .inner-star:after {
+  position: absolute;
+  display: block;
+  color: red;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid #ffffff;
+  border-left: 100px solid transparent;
+  content: '';
+  -webkit-transform: rotate(-70deg);
+  transform: rotate(-70deg);
+}
+.timor {
+  background: #FF4500;
+}
+.timor .triangle {
+  position: relative;
+  width: 0;
+  height: 0;
+  border-left: 100px solid black;
+  border-top: 75px solid transparent;
+  border-bottom: 75px solid transparent;
+}
+.timor .star-wrap {
+  position: absolute;
+  left: -160px;
+  top: -85px;
+  -webkit-transform: scale(0.25);
+  -ms-transform: scale(0.25);
+  transform: scale(0.25);
+}
+.timor .star-wrap1 {
+  position: absolute;
+  left: -160px;
+  top: -85px;
+  -webkit-transform: scale(0.25);
+  -ms-transform: scale(0.25);
+  transform: scale(0.25);
+}
+.timor .star-wrap .star {
+  margin: 50px 0;
+  position: relative;
+  display: block;
+  color: red;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px  solid white;
+  border-left: 100px solid transparent;
+  -webkit-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+.timor .star-wrap .star:before {
+  border-bottom: 80px solid white;
+  border-left: 30px solid transparent;
+  border-right: 30px solid transparent;
+  position: absolute;
+  height: 0;
+  width: 0;
+  top: -45px;
+  left: -65px;
+  display: block;
+  content: '';
+  -webkit-transform: rotate(-35deg);
+  transform: rotate(-35deg);
+}
+.timor .star-wrap .star:after {
+  position: absolute;
+  display: block;
+  color: black;
+  top: 3px;
+  left: -105px;
+  width: 0px;
+  height: 0px;
+  border-right: 100px solid transparent;
+  border-bottom: 70px solid white;
+  border-left: 100px solid transparent;
+  content: '';
+  -webkit-transform: rotate(-70deg);
+  transform: rotate(-70deg);
+}
+.christies {
+  background-color: red !important;
+  background: -webkit-radial-gradient(center, ellipse cover, yellow 50%,yellow 50%,red 50%);
+  background: radial-gradient(ellipse at center, yellow 50%,yellow 50%, red 50%);
+  background-size: 65px 65px;
+  background-repeat: repeat-x;
+  background-position: 3px;
+}
+.japan {
+  background-color: white;
+}
+
+.japan .dot {
+    height: 50px;
+    width: 50px;
+    position: relative;
+    display: block;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}
