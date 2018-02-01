@@ -646,4 +646,25 @@ body {
 	linear-gradient(to bottom, blue 90px, white 90px, white 110px, blue 110px);
 }
 
+.mont {
+  background: #ffdb58;
+}
+
+.mont .yellow-wrap {
+  background: red;
+  display: block;
+  width: 175px;
+	height: 110px;
+  margin-top: 22px;
+  margin-left: 12px;
+}
+
+.yellow-wrap img {
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 }
