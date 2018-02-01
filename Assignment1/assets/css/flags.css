@@ -565,10 +565,31 @@ body {
 	  background: black;
   }
   .guinea .right-triangle {
+    position: absolute;
+    display: block;
     width: 0;
     height: 0;
     border-top: 150px solid red;
     border-left: 200px solid transparent;
   }
-  
+
+  .right-triangle img {
+    position: relative;
+    display: block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+  .kyr {
+    background: red;
+  }
+
+  .kyr img {
+    position: relative;
+    display: block;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+  }
+
 }
