@@ -592,4 +592,47 @@ body {
     border-radius: 50%;
   }
 
+  .guyana{
+    background-color: #009e49;
+  }
+.guyana .inner-triangle{
+  content: '';
+
+  position: absolute;
+  border-left: 200px solid white;
+  border-bottom: 75px solid transparent;
+  border-top: 75px solid transparent;
+  top: 500px;
+}
+.inner-triangle::after{
+  content: "";
+
+  position: relative;
+  border-left: 180px solid #fcd116;
+  border-bottom: 70px solid transparent;
+  border-top: 70px solid transparent;
+  top: 200px;
+  z-index: 2;
+}
+.guyana .triangle{
+
+  position: relative;
+  border-left: 100px solid black;
+  border-bottom: 75px solid transparent;
+  border-top: 75px solid transparent;
+  top: -17px;
+  z-index: 3;
+}
+ .triangle:after{
+
+  content: '';
+  position: absolute;
+  border-left: 90px solid #ce1126;
+  border-bottom: 65px solid transparent;
+  border-top: 65px solid transparent;
+  z-index: 4;
+  left: -100px;
+  top: -65px;
+}
+
 }
